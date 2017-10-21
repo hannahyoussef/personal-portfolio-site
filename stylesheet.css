@@ -1,0 +1,102 @@
+body {
+	background-color: pink;
+}
+
+.header {
+	color: purple;
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+}
+
+.intro {
+	color: yellow;
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	background-color: red;
+}
+
+h1 {
+	color: blue; 
+	font-size: 20px; 
+	font-family: Verdana; 
+	text-align: left;
+}
+
+p {
+	color: red; 
+	font-size: 15px; 
+	font-family: verdana; 
+	text-align: left;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover{
+	color: purple;
+	font-weight: bold;
+}
+
+a:visited{
+	color: green;
+}
+
+/* Top navigation bar formatting */
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+
+}
+ 
+.anchor {
+	display: block;
+	height: 65px;
+	margin-top: -65px;
+	visibility: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana;
+    background-color: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: purple;
+    color: pink;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* End topnav formatting */
+
+
+/*
+#content {
+	width: 100px;
+	float: right;
+	padding: 24px;
+}
+*/
+
+nav a {
+	padding: 10;
+}
